@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#container3 {
+    float:left;
+    width:100%;
+   /* background:green;*/
+    overflow:hidden;
+    position:relative;
+}
+#container2 {
+    float:left;
+    width:100%;
+    /*background:yellow;*/
+    position:relative;
+    right:30%;
+}
+#container1 {
+    float:left;
+    width:100%;
+   /* background:red;*/
+    position:relative;
+    right:40%;
+}
+#col1 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:72%;
+    overflow:hidden;
+}
+#col2 {
+    float:left;
+    width:36%;
+    position:relative;
+    left:76%;
+    overflow:hidden;
+}
+#col3 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:80%;
+    overflow:hidden;
+}
+p.htmltext, p.bodytext{display:none;}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("button.htmlbutton").click(function(){
+    $("p.htmltext").toggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("button.bodybutton").click(function(){
+    $("p.bodytext").toggle("slow");
+  });
+});
+</script>
+</head>
+<body>
+<div id="container3">
+    <div id="container2">
+        <div id="container1">
+            <div id="col1">
+<button class="htmlbutton"><img src="htmlbutton.jpg"></button>
+<p class="htmltext">All of the HTML code that we write has to go inside an html  &#34;tag&#34;. Many tags come in pairs &#60;[stuff]&#62; &#60;&#47;[stuff]&#62;, the &#47; indicates that this is a closing tag.
+<textarea disabled="true" style="border: none;rows=4; cols=5;width=600px;background-color:white;">
+    <html>
+	webpage instructions
+    <html>
+</textarea>
+<iframe width="420" height="345"
+src="http://www.youtube.com/embed/watch?v=XiBYM6g8Tck">
+</iframe>
+</p>
+</div>
+<div id="col2">
+<button class="bodybutton"><img src="bodybutton.jpg"></button>
+<p class="bodytext"> You use the body tag to designate which sets of instructions apply to the &#34;body&#34; of the webpage (what you see when you open the site).
+
+&#60;html&#62;
+&#60;body&#62;
+instructions for what the webpage should do/look like
+&#60;&#47;body&#62;
+&#60;&#47;html&#62;
+</p>
+</div>
+<div id="col3"></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

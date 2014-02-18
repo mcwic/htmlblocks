@@ -1,0 +1,26 @@
+<html>
+<head><style>
+p.test{
+display:block;
+}
+.buttontest{}
+</style>
+</head>
+	<body>
+<script> 
+$(document).ready(function()){
+	$('.buttontest').click(function (){
+		$(this).parent().find('p.test').toggle('slow');
+});
+});
+</script>
+
+		<div id='wrap'>
+			<input type = "button" class='buttontest' value="show/hide">
+		<p class="test"> Test text </p>
+		</div>
+
+
+
+	</body>
+</html>
