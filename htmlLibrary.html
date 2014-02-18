@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#container3 {
+    float:left;
+    width:100%;
+   /* background:green;*/
+    overflow:hidden;
+    position:relative;
+}
+#container2 {
+    float:left;
+    width:100%;
+    /*background:yellow;*/
+    position:relative;
+    right:30%;
+}
+#container1 {
+    float:left;
+    width:100%;
+   /* background:red;*/
+    position:relative;
+    right:40%;
+}
+#col1 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:72%;
+    overflow:hidden;
+}
+#col2 {
+    float:left;
+    width:36%;
+    position:relative;
+    left:76%;
+    overflow:hidden;
+}
+#col3 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:80%;
+    overflow:hidden;
+}
+p.htmltext,div.headingtext, p.bodytext{display:none;}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("button.htmlbutton").click(function(){
+    $("p.htmltext").toggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("button.bodybutton").click(function(){
+    $("p.bodytext").toggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("button.headingbutton").click(function(){
+    $("div.headingtext").toggle("slow");
+  });
+});
+</script>
+</head>
+<body>
+<div id="container3">
+    <div id="container2">
+        <div id="container1">
+            <div id="col1">
+<button class="htmlbutton"><img src="htmlbutton.jpg"></button>
+<p class="htmltext">All of the HTML code that we write has to go inside an html  &#34;tag&#34;. Many tags come in pairs &#60;[stuff]&#62; &#60;&#47;[stuff]&#62;, the &#47; indicates that this is a closing tag.
+<textarea disabled="true" style="border: none;rows=4; cols=5;width=600px;background-color:white;">
+    <html>
+	webpage instructions
+    <html>
+</textarea>
+<iframe width="420" height="345"
+src="http://www.youtube.com/watch?v=_WgMJRT9gGk">
+</iframe>
+</p>
+</div>
+<div id="col2">
+<button class="bodybutton"><img src="bodybutton.jpg"></button>
+<p class="bodytext"> You use the body tag to designate which sets of instructions apply to the &#34;body&#34; of the webpage (what you see when you open the site).
+
+&#60;html&#62;
+&#60;body&#62;
+instructions for what the webpage should do/look like
+&#60;&#47;body&#62;
+&#60;&#47;html&#62;
+</p>
+</div>
+<div id="col3">
+<button class="headingbutton"><img src="headingbutton.jpg"></button>
+<div class="headingtext">
+<p>When you write a research paper you often have a title and different sections like:
+</p>
+<h1> My research paper </h1>
+<h2> Information </h2>
+<h3> About birds </h3>
+<h3> About insects </h3>
+<p>
+Each of these is called a “heading”. In HTML there are six classes of headings, heading 1 (h1), heading 2 (h2), heading 3 (h3), heading 4 (h4), heading 5 (h5), and heading 6 (h6). Heading 1 is the biggest (like the heading used for “My research paper”) and heading 6 is the smallest. In order to write something in html like what we have in the green box above we would type the following into our .html file.
+</p>
+<!-- seans stuff -->
+<iframe width="420" height="345"
+src="http://www.youtube.com/watch?v=_WgMJRT9gGk">
+</iframe>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
