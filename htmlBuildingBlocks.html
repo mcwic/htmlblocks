@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- designs adapted from Matthew James Taylor http://matthewjamestaylor.com/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("button.htmlbutton").click(function(){
+    $("p.htmltext").toggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("button.bodybutton").click(function(){
+    $("p.bodytext").toggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("button.headingbutton").click(function(){
+    $("div.headingtext").toggle("slow");
+  });
+});
+</script>
+
+	<title>HTML Building Blocks</title>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="htmlBuildingBlocks.css" media="screen" />
+</head>
+<body>
+
+<div id="header">
+	
+	<h1>HTML Building Blocks Library</h1>
+	<h2>Click on the blocks to learn more. Use the code you find in the blocks to write the code for websites like the ones on the right (answer key at the bottom of the page). </h2>
+
+
+</div>
+<div class="colmask rightmenu">
+	<div class="colleft">
+		<div class="col1">
+			<!-- Column 1 start -->
+			<div id="container3">
+				<div id="container2">
+					<div id="container1">
+						<div id="col1">
+							<button class="htmlbutton"><img src="htmlbutton.jpg"/></button>
+							<p class="htmltext">All of the HTML code that we write has to go inside an html  &#34;tag&#34;. Many tags come in pairs &#60;[stuff]&#62; &#60;&#47;[stuff]&#62;, the &#47; indicates that this is a closing tag.
+							
+							<iframe width="420" height="345" src="http://www.youtube.com/watch?v=_WgMJRT9gGk">
+							</iframe>
+							</p>
+						</div>
+						<div id="col2">
+						<button class="bodybutton"><img src="bodybutton.jpg"/></button>
+							<p class="bodytext"> You use the body tag to designate which sets of instructions apply to the &#34;body&#34; of the webpage (what you see when you open the site).
+							
+							&#60;html&#62;
+							&#60;body&#62;
+							instructions for what the webpage should do/look like
+							&#60;&#47;body&#62;
+							&#60;&#47;html&#62;
+							</p>
+						</div>
+						<div id="col3">
+							<button class="headingbutton"><img src="headingbutton.jpg"/></button>
+							<div class="headingtext">
+							<p>When you write a research paper you often have a title and different sections like:
+							</p>
+							<h1> My research paper </h1>
+							<h2> Information </h2>
+							<h3> About birds </h3>
+							<h3> About insects </h3>
+							<p>
+							Each of these is called a “heading”. In HTML there are six classes of headings, heading 1 (h1), heading 2 (h2), heading 3 (h3), heading 4 (h4), heading 5 (h5), and heading 6 (h6). Heading 1 is the biggest (like the heading used for “My research paper”) and heading 6 is the smallest. In order to write something in html like what we have in the green box above we would type the following into our .html file.
+							</p>
+							<!-- seans stuff -->
+							<iframe width="420" height="345"
+							src="http://www.youtube.com/watch?v=_WgMJRT9gGk">
+							</iframe>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- Column 1 end -->
+		</div>
+	
+		<div class="col2">
+			<!-- Column 2 start -->
+			<h2> Can you write the code needed to make one of the websites below? </h2>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p>This page includes code from the <a href="http://matthewjamestaylor.com/blog/perfect-2-column-right-menu.htm">Perfect 'Right Menu' 2 Column Liquid Layout</a> and the <a href="http://matthewjamestaylor.com/blog/equal-height-columns-cross-browser-css-no-hacks"> Equal Height Columns with Cross-Browser CSS Layout </a>by <a href="http://matthewjamestaylor.com">Matthew James Taylor</a>. </p>
+</div>
+
+</body>
+</html>
