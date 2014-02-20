@@ -302,6 +302,10 @@ body {
   margin-bottom: .5em;
   background: black
 }
+.logobland{
+  color: black;
+  margin-bottom: .5em;
+}
 /* line 162, ../sass/screen.sass */
 .logo .version {
   color: #fdf485;
@@ -324,6 +328,11 @@ body {
   font-size: 22px;
   color: #ff00ff;
   background:black;
+  margin-bottom: .2em;
+}
+.leadbland{
+  font-size: 18px;
+  color: black;
   margin-bottom: .2em;
 }
 .yellow{
@@ -371,7 +380,12 @@ body {
 .example-image-link:hover {
   border: 4px solid #00bfa8;
 }
-
+.leftside{
+  float: left;
+}
+.rightside{
+  float: right;
+}
 /* line 194, ../sass/screen.sass */
 .example-image {
   -webkit-border-radius: 2px;
