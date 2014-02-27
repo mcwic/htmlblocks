@@ -82,7 +82,7 @@ h4,
 h5,
 h6 {
   line-height: 1.2em;
-  color: #fdf485;
+  color: black;
 }
 
 /* line 26, ../sass/screen.sass */
@@ -103,7 +103,7 @@ h3 {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #e5d404;
+  
   margin-bottom: 0.3em;
 }
 
