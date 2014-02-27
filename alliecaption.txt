@@ -1,0 +1,6 @@
+Hi! I'm Allie, I'm a Junior at the University of Maryland and I'm studying cell biology and molecular genetics, and computer science.
+Outside of academics I like to figure skate, paint and sing.
+I took my first computer science class in high school and at first I thought it definitely wasn't for me. But as the year progressed I found out that it was actually a way for me to express my creativity through coding and designing visual applications.
+Right now I am taking a course in human computer interactions because I want to learn the process of designing useful apps for a target audience.
+Luckily I've had the chance to work in two bioinformatics labs which has allowed me to combine my love of genetics and computer science. These two internships have made me realize how powerful computing is because it makes it really easy to analyze large amounts of useful data.
+Right now my plan is to hopefully attend medical school, but I'll use my perspective as a doctor to see what kinds of applications from computer science can be integrated into the medical field.
