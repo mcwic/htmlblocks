@@ -168,6 +168,10 @@ body:after {
   text-align: left;
   line-height: 1.1em;
 }
+footer{
+	text-align: center;
+	font-size: 8px;
+}
 /* line 111, ../sass/lightbox.sass */
 .lb-data .lb-caption {
   font-size: 13px;

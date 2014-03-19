@@ -123,7 +123,7 @@ img {
 /* 2 Column (right menu) settings */
 .rightmenu {
 	
-	background:#ccffcc;		/* right column background colour */
+	background:#59ffeb;		/* right column background colour */
 }
 .rightmenu .colleft {
 	right:25%;			/* right column width */
@@ -139,6 +139,10 @@ img {
 	left:31%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
 }
 /* Footer styles */
+footer{
+	text-align: center;
+	font-size: 8px;
+}
 #footer {
 	clear:both;
 	float:left;
