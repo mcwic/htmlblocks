@@ -130,14 +130,9 @@ lightbox = new Lightbox options
       });
       $lightbox = $('#lightbox');
       $lightbox.hide().on('click', function(e) {
-    if ($(e.target).attr('id') === 'lightbox') { 
-        _this.end();
+        if ($(e.target).attr('id') === 'lightbox') _this.end();
         return false;
-    }
-    else { // HERE
-        return true; 
-    }
-  });
+      });
       $lightbox.find('.lb-outerContainer').on('click', function(e) {
         if ($(e.target).attr('id') === 'lightbox') _this.end();
         return false;
