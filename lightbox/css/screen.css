@@ -246,11 +246,13 @@ body {
   max-width: 740px;
   margin: 0 auto;
 }
-
+.centertogether{
+  
+}
 /* line 132, ../sass/screen.sass */
 .section {
   padding: 0 0 40px 0;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   *zoom: 1;
   border-bottom: 4px solid #373737;
 }
@@ -273,7 +275,7 @@ body {
 /* line 143, ../sass/screen.sass */
 .section-subheader {
   margin-top: -0.6em;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   text-align: center;
   font-size: 24px;
 }
@@ -399,11 +401,7 @@ body {
 .example-image-link:hover {
   border: 4px solid #00bfa8;
 }
-.leftside{
-  float: left;
-}
-.rightside{
-  float: right;
+
 }
 /* line 194, ../sass/screen.sass */
 .example-image {
@@ -524,8 +522,8 @@ body {
 
   /* line 269, ../sass/screen.sass */
   .section {
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    /*padding-bottom: 20px;
+    margin-bottom: 20px;*/
   }
 
   /* line 272, ../sass/screen.sass */
