@@ -1,0 +1,68 @@
+body{
+    background-image: url(./CIB_about_depressed.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  min-height: 600px;
+  min-width: 800px;
+}
+.buttons { 
+		position: relative;
+                margin-top: 9%;
+                margin-left: 7%;
+		/*padding: 5px 0; */width: 100%; 
+		height: 100px; 
+		
+                
+}
+#contents-link { 
+		position: absolute; 
+		/*padding: 5px 0; */width: 10%; 
+		height: 100%;
+		background-color: transparent; 
+		
+}
+
+#meet-link { 
+		position: absolute;
+                left: 15%;
+		/*padding: 5px 0; */width: 10%; 
+		height: 100%;
+		background-color: transparent; 
+}
+
+#html-link { 
+		position: absolute;
+                left: 30%;
+		/*padding: 5px 0; */width: 13%; 
+		height: 100%;
+		background-color: transparent;
+               
+}
+
+#tumblr-link { 
+		position: absolute;
+                left: 47%;
+		/*padding: 5px 0; */width: 11%; 
+		height: 100%;
+		background-color: transparent;
+                
+}
+
+#teacher-link { 
+		position: absolute;
+                left: 62.5%;
+		/*padding: 5px 0; */width: 11%; 
+		height: 100%;
+		background-color: transparent;
+                 
+}
+
+#about-link { 
+		position: absolute;
+                left: 78%;
+		/*padding: 5px 0; */width: 10%; 
+		height: 100%;
+		background-color: transparent;
+}
