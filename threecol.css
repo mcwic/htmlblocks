@@ -1,9 +1,13 @@
+html{
+	background: black;
+}
 body {
 	margin:0;
 	padding:0;
 	border:0;			/* This removes the border around the viewport in old versions of IE */
 	width:100%;
-	background:#fff;
+	background: black;
+	
 	min-width:600px;		/* Minimum width of layout - remove line if not required */
 					/* The min-width property does not work in old versions of Internet Explorer */
 	font-size:90%;
@@ -90,7 +94,7 @@ img {
 /* 'widths' sub menu */
 #layoutdims {
 	clear:both;
-	background:#eee;
+	background:#000;
 	border-top:4px solid #000;
 	margin:0;
 	padding:6px 15px !important;
@@ -111,6 +115,7 @@ img {
 	float:left;
 	width:100%;			/* width of page */
 	position:relative;
+	
 }
 .col1,
 .col2,
@@ -131,7 +136,7 @@ img {
 }
 .threecol .colleft {
 	right:50%;			/* width of the middle column */
-	background:#f4f4f4;	/* left column background colour */
+	background:#000;	/* left column background colour */
 }
 .threecol .col1 {
 	width:46%;			/* width of center column content (column width minus padding on either side) */
