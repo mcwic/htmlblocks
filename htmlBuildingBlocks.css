@@ -3,7 +3,7 @@ body {
 	padding:0;
 	border:0;			/* This removes the border around the viewport in old versions of IE */
 	width:100%;
-	background:#fff;
+	background:#000;
 	  	/* Minimum width of layout - remove line if not required */
 					/* The min-width property does not work in old versions of Internet Explorer */
 	font-size:90%;
@@ -126,7 +126,7 @@ img {
 }
 .rightmenu .colleft {
 	right:25%;			/* right column width */
-	background:#fff;		/* left column background colour */
+	background:#000;		/* left column background colour */
 }
 .rightmenu .col1 {
 	width:71%;			/* left column content width (left column width minus left and right padding) */
