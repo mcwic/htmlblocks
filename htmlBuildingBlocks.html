@@ -1,28 +1,26 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!-- designs adapted from Matthew James Taylor http://matthewjamestaylor.com/ -->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+<!DOCTYPE html>
+<html>
 <head>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-</script>
-<script>
-$(document).ready(function(){
-  $("button.htmlbutton").click(function(){
-    $("p.htmltext").toggle("slow");
-  });
-});
-$(document).ready(function(){
-  $("button.bodybutton").click(function(){
-    $("p.bodytext").toggle("slow");
-  });
-});
-$(document).ready(function(){
-  $("button.headingbutton").click(function(){
-    $("div.headingtext").toggle("slow");
-  });
-});
-</script>
-<script src="./lightbox/js/jquery-1.10.2.min.js"></script>
-<script src="./lightbox/js/lightbox-2.6.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $("button.htmlbutton").click(function(){
+		    $("p.htmltext").toggle("slow");
+		  });
+		});
+		$(document).ready(function(){
+		  $("button.bodybutton").click(function(){
+		    $("p.bodytext").toggle("slow");
+		  });
+		});
+		$(document).ready(function(){
+		  $("button.headingbutton").click(function(){
+		    $("div.headingtext").toggle("slow");
+		  });
+		});
+	</script>
+	<script src="./lightbox/js/jquery-1.10.2.min.js"></script>
+	<script src="./lightbox/js/lightbox-2.6.min.js"></script>
 	<script src="./lightbox/js/modernizr.custom.js"></script>
 
 	<link rel="shortcut icon" href="./lightbox/img/demopage/favicon.ico">
@@ -34,84 +32,102 @@ $(document).ready(function(){
 
 	<link rel="stylesheet" type="text/css" href="htmlBuildingBlocks.css" media="screen" />
 </head>
+
 <body>
-
-<div id="header">
+	<header>
+		<img id="header" src="header_block_depressed.png"/>
 	
-	<h1>HTML Building Blocks Library</h1>
-	<h3>Click on the blocks to learn more. </h3>
-	<h3>Use the code you find in the blocks to build the websites on the right</h3>
+	</header>
+	<div class="buttons">
+		<a id="contents-link" href="./mainpage.html"></a>
+		<a id="meet-link" href="./blandrolemodellibrary.html"></a>
+		<a id="html-link" href="./htmlBuildingBlocks.html"></a>
+		<a id="tumblr-
+		link" href="#"></a>
+		<a id="teacher-link" href="#"></a>
+		<a id="about-link" href="./about.html"></a>
+	</div>
 
-
-</div>
-<div class="colmask rightmenu">
-	<div class="colleft">
-		<div class="col1">
-			<!-- Column 1 start -->
-			<div id="container3">
-				<div id="container2">
-					<div id="container1">
-						<div id="col1">
-							<button class="htmlbutton"><img src="htmlbutton.jpg" width="100px" height="100px"/></button>
-							<p class="htmltext">All of the HTML code that we write has to go inside an html  &#34;tag&#34;. Many tags come in pairs &#60;[stuff]&#62; &#60;&#47;[stuff]&#62;, the &#47; indicates that this is a closing tag.
-							
-							<iframe width="420" height="345" src="http://www.youtube.com/watch?v=_WgMJRT9gGk">
-							</iframe>
-							</p>
-							<button class="paragraphbutton"><img src="paragraphButton.png" width="100px" height="100px"/></button>
-						</div>
-						<div id="col2">
-						<button class="bodybutton"><img src="bodybutton.jpg" width="100px" height="100px"/></button>
-							<p class="bodytext"> You use the body tag to designate which sets of instructions apply to the &#34;body&#34; of the webpage (what you see when you open the site).
-							
-							&#60;html&#62;
-							&#60;body&#62;
-							instructions for what the webpage should do/look like
-							&#60;&#47;body&#62;
-							&#60;&#47;html&#62;
-							</p>
-							<br>
-							<button class="linkbutton"><img src="linkButton.png" width="100px" height="100px"/></button>
-						</div>
-						<div id="col3">
-							<button class="headingbutton"><img src="headingbutton.jpg" width="100px" height="100px"/></button>
-							<div class="headingtext">
-							<p>When you write a research paper you often have a title and different sections like:
-							</p>
-							<h1> My research paper </h1>
-							<h2> Information </h2>
-							<h3> About birds </h3>
-							<h3> About insects </h3>
-							<p>
-							Each of these is called a “heading”. In HTML there are six classes of headings, heading 1 (h1), heading 2 (h2), heading 3 (h3), heading 4 (h4), heading 5 (h5), and heading 6 (h6). Heading 1 is the biggest (like the heading used for “My research paper”) and heading 6 is the smallest. In order to write something in html like what we have in the green box above we would type the following into our .html file.
-							</p>
-							<!-- seans stuff -->
-							<iframe width="420" height="345"
-							src="http://www.youtube.com/watch?v=_WgMJRT9gGk">
-							</iframe>
+	<div class="colmask rightmenu">
+		<div class="colleft">
+			<div class="col1">
+				<!-- Column 1 start -->
+				<div id="container3">
+					<div id="container2">
+						<div id="container1">
+							<div id="col1">
+								<button class="htmlbutton"><img src="htmlbutton.jpg" width="100px" height="100px"/></button>
+								<p class="htmltext">All of the HTML code that we write has to go inside an html  &#34;tag&#34;. Many tags come in pairs &#60;[stuff]&#62; &#60;&#47;[stuff]&#62;, the &#47; indicates that this is a closing tag.
+								
+								<iframe width="420" height="345" src="http://www.youtube.com/watch?v=_WgMJRT9gGk">
+								</iframe>
+								</p>
+								<button class="paragraphbutton"><img src="paragraphButton.png" width="100px" height="100px"/></button>
+								<div class="headingtext"><p>FILLER TEXT</p></div>
+								<button class="paragraphbutton"><img src="colorCSSButton.png" width="100px" height="100px"/></button>
+								<div class="headingtext"><p>FILLER TEXT</p></div>
 							</div>
-							<button class="cssbutton"><img src="cssButton.png" width="100px" height="100px"/></button>
+							<div id="col2">
+							<button class="bodybutton"><img src="bodybutton.jpg" width="100px" height="100px"/></button>
+								<p class="bodytext"> You use the body tag to designate which sets of instructions apply to the &#34;body&#34; of the webpage (what you see when you open the site).
+								
+								&#60;html&#62;
+								&#60;body&#62;
+								instructions for what the webpage should do/look like
+								&#60;&#47;body&#62;
+								&#60;&#47;html&#62;
+								</p>
+								<br>
+								<button class="linkbutton"><img src="linkButton.png" width="100px" height="100px"/></button>
+								<div class="headingtext"><p>FILLER TEXT</p></div>
+								<br>
+								<button class="linkbutton"><img src="backgroundCSSButton.png" width="100px" height="100px"/></button>
+							<p>FILLER TEXT</p>
+							</div>
+							<div id="col3">
+								<button class="headingbutton"><img src="headingbutton.jpg" width="100px" height="100px"/></button>
+								<div class="headingtext">
+								<p>When you write a research paper you often have a title and different sections like:
+								</p>
+								<h1> My research paper </h1>
+								<h2> Information </h2>
+								<h3> About birds </h3>
+								<h3> About insects </h3>
+								<p>
+								Each of these is called a “heading”. In HTML there are six classes of headings, heading 1 (h1), heading 2 (h2), heading 3 (h3), heading 4 (h4), heading 5 (h5), and heading 6 (h6). Heading 1 is the biggest (like the heading used for “My research paper”) and heading 6 is the smallest. In order to write something in html like what we have in the green box above we would type the following into our .html file.
+								</p>
+								<!-- seans stuff -->
+								<iframe width="420" height="345"
+								src="http://www.youtube.com/watch?v=_WgMJRT9gGk">
+								</iframe>
+								</div>
+								<button class="cssbutton"><img src="cssButton.png" width="100px" height="100px"/></button>
+								<div class="headingtext"><p>FILLER TEXT</p></div>
+							</div>
+	
 						</div>
-
 					</div>
 				</div>
+				<!-- Column 1 end -->
 			</div>
-			<!-- Column 1 end -->
-		</div>
-	
-		<div class="col2">
-			<!-- Column 2 start -->
-			<h3> Can you write the code needed to make one of the websites below? </h3>
-			<a class="example-image-link" href="./goalProject.png" data-lightbox="mentor-profile" ><img class="example-image" src="./goalProject.png" alt="Goal project 1" width="200" height="200"/></a>
-			<a class="example-image-link" href="./goalProject1B.png" data-lightbox="mentor-profile" ><img class="example-image" src="./goalProject1B.png" alt="Goal project 1" width="200" height="200"/></a>
-			<a class="example-image-link" href="./goalProject1C.png" data-lightbox="mentor-profile" ><img class="example-image" src="./goalProject1C.png" alt="Goal project 1" width="200" height="200"/></a>
-					
+		
+			<div class="col2">
+				<!-- Column 2 start -->
+				<h3> Can you write the code needed to make one of the websites below? </h3>
+				<br>
+				<h3> Click the blocks on the left to see what code you can use to change the text color, size, add images, and more </h3>
+				<br>
+				<h5> Go <a href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic" >here</a> to write your code.</h5>
+				<a class="example-image-link" href="./goalProject.png" data-lightbox="mentor-profile" ><img class="example-image" src="./goalProject.png" alt="Goal project 1" width="200" height="200"/></a>
+				<a class="example-image-link" href="./goalProject1B.png" data-lightbox="mentor-profile" ><img class="example-image" src="./goalProject1B.png" alt="Goal project 1" width="200" height="200"/></a>
+				<a class="example-image-link" href="./goalProject1C.png" data-lightbox="mentor-profile" ><img class="example-image" src="./goalProject1C.png" alt="Goal project 1" width="200" height="200"/></a>
+						
+			</div>
 		</div>
 	</div>
-</div>
-<div id="footer">
-	<p>This page includes code from the <a href="http://matthewjamestaylor.com/blog/perfect-2-column-right-menu.htm">Perfect 'Right Menu' 2 Column Liquid Layout</a> and the <a href="http://matthewjamestaylor.com/blog/equal-height-columns-cross-browser-css-no-hacks"> Equal Height Columns with Cross-Browser CSS Layout </a>by <a href="http://matthewjamestaylor.com">Matthew James Taylor</a>. </p>
-</div>
+	<div id="footer">
+		<p>This page includes code from the <a href="http://matthewjamestaylor.com/blog/perfect-2-column-right-menu.htm">Perfect 'Right Menu' 2 Column Liquid Layout</a> and the <a href="http://matthewjamestaylor.com/blog/equal-height-columns-cross-browser-css-no-hacks"> Equal Height Columns with Cross-Browser CSS Layout </a>by <a href="http://matthewjamestaylor.com">Matthew James Taylor</a>. </p>
+	</div>
 
 </body>
 </html>
