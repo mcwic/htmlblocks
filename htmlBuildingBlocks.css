@@ -190,3 +190,64 @@ img {
     overflow:hidden;
 }
 p.htmltext,div.headingtext, p.bodytext{display:none;}
+.buttons { 
+		position: relative;
+                padding-top: 7.5%;
+                margin-left: 2%;
+		/*padding: 5px 0; */width: 100%px; 
+		height: 80px; 
+		
+                
+}
+#contents-link { 
+		position: absolute;
+		left: 6%;
+		/*padding: 5px 0; */width: 10%; 
+		height: 30%;
+		background-color: transparent;
+		
+}
+
+#meet-link { 
+		position: absolute;
+                left: 21%;
+		/*padding: 5px 0; */width: 10%; 
+		height: 40%;
+		background-color: transparent;
+		
+}
+
+#html-link { 
+		position: absolute;
+                left: 35%;
+		/*padding: 5px 0; */width: 13%; 
+		height: 50%;
+		background-color: transparent;
+               
+}
+
+#tumblr-link { 
+		position: absolute;
+                left: 50%;
+		/*padding: 5px 0; */width: 13%; 
+		height: 50%;
+		background-color: transparent;
+                
+}
+
+#teacher-link { 
+		position: absolute;
+                left: 65%;
+		/*padding: 5px 0; */width: 13%; 
+		height: 58%;
+		background-color: transparent;
+                 
+}
+
+#about-link { 
+		position: absolute;
+                left: 82%;
+		/*padding: 5px 0; */width: 10%; 
+		height: 50%;
+		background-color: transparent;
+}
