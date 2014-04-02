@@ -1,0 +1,199 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:black;
+	color: white;
+	min-width:600px;    	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+	font-family: courier, monospace;
+}
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+}
+#header {
+	border-bottom:1px solid #000;
+}
+/* 'widths' sub menu */
+#layoutdims {
+	clear:both;
+	background:#eee;
+	border-top:4px solid #000;
+	margin:0;
+	padding:6px 15px !important;
+	text-align:right;
+}
+#grey{
+    	color: #999999;
+
+}
+.center
+{
+margin-left:auto;
+margin-right:auto;
+width:70%;
+
+}
+a:link{
+    color: #990000;
+    text-decoration: blink;
+}
+a:hover{
+    background-color: white;
+}
+
+a:visited{
+    color: #990000;
+    font-style: italic;
+}
+.biggerText{
+    font-size: large;
+}
+h1{
+    color:#990000;
+    
+}
+#backgroundWhite{
+    background-color: white;
+}
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+}
+/* 2 Column (left menu) settings */
+.leftmenu {
+			/* right column background colour */
+}
+.leftmenu .colleft {
+	right:75%;			/* right column width */
+		/* left column background colour */
+}
+.leftmenu .col1 {
+	width:71%;			/* right column content width */
+	left:102%;			/* 100% plus left column left padding */
+}
+.leftmenu .col2 {
+	width:21%;			/* left column content width (column width minus left and right padding) */
+	left:6%;			/* (right column left and right padding) plus (left column left padding) */
+	
+}
+
+/* 2 Column (right menu) settings */
+.rightmenu {
+			/* right column background colour */
+}
+.rightmenu .colleft {
+	right:25%;			/* right column width */
+			/* left column background colour */
+}
+.rightmenu .col1 {
+	width:71%;			/* left column content width (left column width minus left and right padding) */
+	left:27%;			/* (right column width) plus (left column left padding) */
+}
+.rightmenu .col2 {
+	width:21%;			/* right column content width (right column width minus left and right padding) */
+	left:31%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+		
+
+}
+/* Footer styles */
+footer{
+	text-align: center;
+	font-size: 8px;
+	font-family: Courier, monospace;
+}
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px solid #000;
+}
+#footer p {
+	padding:10px;
+	margin:0;
+}
+.buttons { 
+		position: relative;
+                padding-top: 7.5%;
+                margin-left: 2%;
+		/*padding: 5px 0; */width: 100%px; 
+		height: 80px; 
+		
+                
+}
+#contents-link { 
+		position: absolute;
+		left: 6%;
+		/*padding: 5px 0; */width: 10%; 
+		height: 30%;
+		background-color: transparent;
+		
+}
+
+#meet-link { 
+		position: absolute;
+                left: 21%;
+		/*padding: 5px 0; */width: 10%; 
+		height: 40%;
+		background-color: transparent;
+		
+}
+
+#html-link { 
+		position: absolute;
+                left: 35%;
+		/*padding: 5px 0; */width: 13%; 
+		height: 50%;
+		background-color: transparent;
+               
+}
+
+#tumblr-link { 
+		position: absolute;
+                left: 50%;
+		/*padding: 5px 0; */width: 13%; 
+		height: 50%;
+		background-color: transparent;
+                
+}
+
+#teacher-link { 
+		position: absolute;
+                left: 65%;
+		/*padding: 5px 0; */width: 13%; 
+		height: 58%;
+		background-color: transparent;
+                 
+}
+
+#about-link { 
+		position: absolute;
+                left: 82%;
+		/*padding: 5px 0; */width: 10%; 
+		height: 50%;
+		background-color: transparent;
+}
