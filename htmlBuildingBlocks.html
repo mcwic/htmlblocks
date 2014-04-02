@@ -1,11 +1,45 @@
+
 <!DOCTYPE html>
+<!-- EMR 2014 UMD CS contact: eredmiles@cs.umd.edu -->
 <html>
 <head>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+	<!-- JS for buttons, you can change the p to div if that works better for what you need to insert. -->
 	<script>
 		$(document).ready(function(){
 		  $("button.htmlbutton").click(function(){
 		    $("p.htmltext").toggle("slow");
+		  });
+		});
+		$(document).ready(function(){
+		  $("button.paragraphbutton").click(function(){
+		    $("p.paragraphtext").toggle("slow");
+		  });
+		});
+		$(document).ready(function(){
+		  $("button.imgbutton").click(function(){
+		    $("p.imgtext").toggle("slow");
+		  });
+		});
+		$(document).ready(function(){
+		  $("button.CSSColorbutton").click(function(){
+		    $("p.CSSColortext").toggle("slow");
+		  });
+		});
+		$(document).ready(function(){
+		  $("button.CSSbutton").click(function(){
+		    $("p.CSStext").toggle("slow");
+		  });
+		});
+		$(document).ready(function(){
+		  $("button.backgroundCSSbutton").click(function(){
+		    $("p.backgroundCSStext").toggle("slow");
+		  });
+		});
+		$(document).ready(function(){
+		  $("button.linkbutton").click(function(){
+		    $("p.linktext").toggle("slow");
 		  });
 		});
 		$(document).ready(function(){
@@ -18,7 +52,13 @@
 		    $("div.headingtext").toggle("slow");
 		  });
 		});
+		
 	</script>
+	<!-- CSS for buttons -->
+	<style>
+		p.htmltext,div.headingtext, p.bodytext, p.paragraphtext, p.CSStext, p.backgroundCSStext, p.linktext, p.CSSColortext, p.imgtext{display:none;}
+	</style>
+	<!-- imports for lightbox functionality in right column -->
 	<script src="./lightbox/js/jquery-1.10.2.min.js"></script>
 	<script src="./lightbox/js/lightbox-2.6.min.js"></script>
 	<script src="./lightbox/js/modernizr.custom.js"></script>
@@ -30,6 +70,7 @@
 	<title>HTML Building Blocks</title>
 	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
 
+	<!-- modifiable stylesheet with header button CSS and three col liquid formatting -->
 	<link rel="stylesheet" type="text/css" href="htmlBuildingBlocks.css" media="screen" />
 </head>
 
@@ -56,53 +97,41 @@
 					<div id="container2">
 						<div id="container1">
 							<div id="col1">
-								<button class="htmlbutton"><img src="htmlbutton.jpg" width="100px" height="100px"/></button>
-								<p class="htmltext">All of the HTML code that we write has to go inside an html  &#34;tag&#34;. Many tags come in pairs &#60;[stuff]&#62; &#60;&#47;[stuff]&#62;, the &#47; indicates that this is a closing tag.
+								<button class="htmlbutton"><img src="htmlbutton.jpg" width="150px" height="150px"/></button>
+								<p class="htmltext"> Sean's information goes here. 
 								
-								<iframe width="420" height="345" src="http://www.youtube.com/watch?v=_WgMJRT9gGk">
-								</iframe>
 								</p>
-								<button class="paragraphbutton"><img src="paragraphButton.png" width="100px" height="100px"/></button>
+								<button class="paragraphbutton"><img src="paragraphButton.png" width="150px" height="150px"/></button>
+								<p class="paragraphtext">Sean's information goes here. </p>
 								
-								<button class="paragraphbutton"><img src="colorCSSButton.png" width="100px" height="100px"/></button>
-								
+								<button class="CSSColorbutton"><img src="colorCSSButton.png" width="150px" height="150px"/></button>
+								<p class="CSSColortext">Elissa's information goes here. </p>
 							</div>
 							<div id="col2">
-							<button class="bodybutton"><img src="bodybutton.jpg" width="100px" height="100px"/></button>
-								<p class="bodytext"> You use the body tag to designate which sets of instructions apply to the &#34;body&#34; of the webpage (what you see when you open the site).
-								
-								&#60;html&#62;
-								&#60;body&#62;
-								instructions for what the webpage should do/look like
-								&#60;&#47;body&#62;
-								&#60;&#47;html&#62;
+							<button class="bodybutton"><img src="bodybutton.jpg" width="150px" height="150px"/></button>
+								<p class="bodytext"> Sean's information goes here.
 								</p>
 								<br>
-								<button class="linkbutton"><img src="linkButton.png" width="100px" height="100px"/></button>
-								
+								<button class="linkbutton"><img src="linkButton.png" width="150px" height="150px"/></button>
+								<p class="linktext"> Sean's information goes here.
+								</p>
 								<br>
-								<button class="linkbutton"><img src="backgroundCSSButton.png" width="100px" height="100px"/></button>
-						
+								<button class="backgroundCSSbutton"><img src="backgroundCSSButton.png" width="150px" height="150px"/></button>
+								<p class="backgroundCSStext"> Elissa's information goes here.
+								</p>
 							</div>
 							<div id="col3">
-								<button class="headingbutton"><img src="headingbutton.jpg" width="100px" height="100px"/></button>
+								<button class="headingbutton"><img src="headingbutton.jpg" width="150px" height="150px"/></button>
 								<div class="headingtext">
-								<p>When you write a research paper you often have a title and different sections like:
+								<p>Sean's information goes here.
 								</p>
-								<h1> My research paper </h1>
-								<h2> Information </h2>
-								<h3> About birds </h3>
-								<h3> About insects </h3>
-								<p>
-								Each of these is called a “heading”. In HTML there are six classes of headings, heading 1 (h1), heading 2 (h2), heading 3 (h3), heading 4 (h4), heading 5 (h5), and heading 6 (h6). Heading 1 is the biggest (like the heading used for “My research paper”) and heading 6 is the smallest. In order to write something in html like what we have in the green box above we would type the following into our .html file.
-								</p>
-								<!-- seans stuff -->
-								<iframe width="420" height="345"
-								src="http://www.youtube.com/watch?v=_WgMJRT9gGk">
-								</iframe>
+								<!-- this one is a div rather than a paragraph -->
 								</div>
-								<button class="cssbutton"><img src="cssButton.png" width="100px" height="100px"/></button>
-								<div class="headingtext"><p>FILLER TEXT</p></div>
+								
+								<button class="imgbutton"><img src="imgButton.png" width="150px" height="150px"/></button>
+								<p class="imgtext">Sean's information goes here. </p>
+								<button class="CSSbutton"><img src="cssButton.png" width="150px" height="150px"/></button>
+								<p class="CSStext"> Elissa's information goes here. </p>
 							</div>
 	
 						</div>
