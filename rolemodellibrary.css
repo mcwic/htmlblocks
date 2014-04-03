@@ -16,10 +16,10 @@ body {
     color:white;
 }
 a {
-	color:#369;
+	color:#990000;
 }
 a:hover {
-	color:#fff;
+	background-color:grey;
 	
 	text-decoration:none;
 }
@@ -43,7 +43,7 @@ header{
 	padding-left: 10px;
 }
 #header img{
-	background-image: url(./meet_header.png) scroll;
+	background-image: url(./header_meet_depressed.png) scroll;
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-bottom: 4px;
@@ -163,7 +163,7 @@ header{
 	width:21%;			/* right column content width (right column width minus left and right padding) */
 	left:31%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
 background:#fff;
-	border: 1em solid #990000;
+	border: 20px solid #990000;
 }
 /* Footer styles */
 footer{
@@ -229,17 +229,17 @@ footer{
 p.htmltext,div.headingtext, p.bodytext{display:none;}
 .buttons { 
 		position: relative;
-                padding-top: 7.5%;
-                margin-left: 2%;
+                padding-top: 14.5%;
+                margin-left: 1%;
 		/*padding: 5px 0; */width: 100%px; 
-		height: 80px; 
+		height: 40px; 
 		
                 
 }
 #contents-link { 
 		position: absolute;
-		left: 6%;
-		/*padding: 5px 0; */width: 10%; 
+		left: 0%;
+		/*padding: 5px 0; */width: 14%; 
 		height: 30%;
 		background-color: transparent;
 		
@@ -247,18 +247,18 @@ p.htmltext,div.headingtext, p.bodytext{display:none;}
 
 #meet-link { 
 		position: absolute;
-                left: 21%;
-		/*padding: 5px 0; */width: 10%; 
-		height: 40%;
+                left: 17%;
+		/*padding: 5px 0; */width: 14%; 
+		height: 30%;
 		background-color: transparent;
 		
 }
 
 #html-link { 
 		position: absolute;
-                left: 35%;
-		/*padding: 5px 0; */width: 13%; 
-		height: 50%;
+                left: 33%;
+		/*padding: 5px 0; */width: 15.5%; 
+		height: 30%;
 		background-color: transparent;
                
 }
@@ -266,25 +266,25 @@ p.htmltext,div.headingtext, p.bodytext{display:none;}
 #tumblr-link { 
 		position: absolute;
                 left: 50%;
-		/*padding: 5px 0; */width: 13%; 
-		height: 50%;
+		/*padding: 5px 0; */width: 15.5%; 
+		height: 30%;
 		background-color: transparent;
                 
 }
 
 #teacher-link { 
 		position: absolute;
-                left: 65%;
-		/*padding: 5px 0; */width: 13%; 
-		height: 58%;
+                left: 67%;
+		/*padding: 5px 0; */width: 15.5%; 
+		height: 30%;
 		background-color: transparent;
                  
 }
 
 #about-link { 
 		position: absolute;
-                left: 82%;
+                left: 86%;
 		/*padding: 5px 0; */width: 10%; 
-		height: 50%;
+		height: 30%;
 		background-color: transparent;
 }
