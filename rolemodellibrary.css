@@ -12,6 +12,9 @@ body {
 					/* The min-width property does not work in old versions of Internet Explorer */
 	font-size:90%;
 }
+#white{
+    color:white;
+}
 a {
 	color:#369;
 }
