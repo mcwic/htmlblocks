@@ -60,7 +60,7 @@ body {
 }
 footer {
     
-   position:absolute;
+   position:relative;
    padding-bottom: 0px;
    bottom:0px;
    width:100%;

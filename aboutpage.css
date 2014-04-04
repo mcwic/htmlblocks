@@ -67,7 +67,7 @@ body {
 footer {
    position:relative;
    bottom:0;
-
+    font-size: 8px;
    width:100%;
    font-family: courier, monospace;
    height:60px;   /* Height of the footer */
