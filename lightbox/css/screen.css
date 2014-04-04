@@ -361,6 +361,7 @@ body {
 .image-row {
   *zoom: 1;
   margin-bottom: 20px;
+  display: inline-block;
 }
 .video-row {
   *zoom: 1;

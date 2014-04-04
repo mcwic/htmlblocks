@@ -1,68 +1,202 @@
-body{
-    background-image: url(./CIB_about_depressed.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -moz-background-size: cover;
-  min-height: 600px;
-  min-width: 800px;
+figcaption{
+    text-align: center;
+    font-size: 10pt;
 }
+th{
+    font-size: 20pt;
+    text-align: center;
+   
+     padding: 15px;
+}
+table{
+
+    padding: 15px;
+}
+tr{
+   
+     padding: 15px;
+}
+td{
+  
+     padding: 15px;
+}
+.content{
+    text-align: center;
+}
+.innercontent{
+    display: inline-block;
+}
+html{
+	background: black;
+}
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:black;
+	color: white;
+	  	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+}
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#container {
+   height:100%;
+}
+#body {
+    min-height: 100%;
+    padding-left: 30px;
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+.overabit{
+    padding-left: 5%;
+    
+    padding-bottom: 75px;
+}
+footer {
+   position:relative;
+   bottom:0;
+
+   width:100%;
+   font-family: courier, monospace;
+   height:60px;   /* Height of the footer */
+  text-align: center;
+}
+button{
+    width: 60%;
+    height: 60%;
+    background-color: black;
+    border: none;
+}
+#blackInvisible{
+    color: black;
+    visibility: hidden;
+}
+#black{
+    color: black;
+   
+}
+#white{
+    color:white;
+}
+a:link{
+    color: #990000;
+    text-decoration: blink;
+}
+a:hover{
+    background-color: white;
+}
+
+a:visited{
+    color: #990000;
+    font-style: italic;
+}
+h1, h2, h3 {
+	margin:.8em 0 .2em 0;
+	padding:0;
+	font-family: Courier, monospace;
+}
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+	font-family: Courier, monospace;
+}
+img {
+	margin:10px 0 5px;
+}
+header{
+	border-bottom: 4px;
+}
+#right{
+	padding-left: 10px;
+}
+#header img{
+	background-image: url(./header_meet_depressed.png) scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 4px;
+	
+}
+
+/* Header styles */
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+}
+#header {
+	border-bottom:1px solid #000;
+}
+
 .buttons { 
 		position: relative;
-                margin-top: 9%;
-                margin-left: 7%;
-		/*padding: 5px 0; */width: 100%; 
-		height: 100px; 
+                padding-top: 13.5%;
+                margin-left: 5%;
+		/*padding: 5px 0; */width: 100%px; 
+		height: 40px; 
 		
                 
 }
 #contents-link { 
-		position: absolute; 
-		/*padding: 5px 0; */width: 10%; 
-		height: 100%;
-		background-color: transparent; 
+		position: absolute;
+		left: 0.5%;
+		/*padding: 5px 0; */width: 14%; 
+		height: 20%;
+		background-color: transparent;
 		
 }
 
 #meet-link { 
 		position: absolute;
-                left: 15%;
-		/*padding: 5px 0; */width: 10%; 
-		height: 100%;
-		background-color: transparent; 
+                left: 16%;
+		/*padding: 5px 0; */width: 14.5%; 
+		height: 24%;
+		background-color: transparent;
+		
 }
 
 #html-link { 
 		position: absolute;
-                left: 30%;
-		/*padding: 5px 0; */width: 13%; 
-		height: 100%;
+                left: 32%;
+		/*padding: 5px 0; */width: 15%; 
+		height: 24%;
 		background-color: transparent;
                
 }
 
 #tumblr-link { 
 		position: absolute;
-                left: 47%;
-		/*padding: 5px 0; */width: 11%; 
-		height: 100%;
+                left: 47.5%;
+		/*padding: 5px 0; */width: 15%; 
+		height: 24%;
 		background-color: transparent;
                 
 }
 
 #teacher-link { 
 		position: absolute;
-                left: 62.5%;
-		/*padding: 5px 0; */width: 11%; 
-		height: 100%;
+                left: 63.5%;
+		/*padding: 5px 0; */width: 15%; 
+		height: 24%;
 		background-color: transparent;
                  
 }
 
 #about-link { 
 		position: absolute;
-                left: 78%;
-		/*padding: 5px 0; */width: 10%; 
-		height: 100%;
+                left: 80%;
+		/*padding: 5px 0; */width: 14%; 
+		height: 24%;
 		background-color: transparent;
 }
