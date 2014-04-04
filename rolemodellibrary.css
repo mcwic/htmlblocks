@@ -6,7 +6,7 @@ body {
 	padding:0;
 	border:0;			/* This removes the border around the viewport in old versions of IE */
 	width:100%;
-	background:#fff;
+	background:black;
 	color: white;
 	  	/* Minimum width of layout - remove line if not required */
 					/* The min-width property does not work in old versions of Internet Explorer */
@@ -49,10 +49,6 @@ header{
 	border-bottom: 4px;
 	
 }
-#ads img {
-	display:block;
-	padding-top:10px;
-}
 
 /* Header styles */
 #header {
@@ -63,12 +59,7 @@ header{
 #header {
 	border-bottom:1px solid #000;
 }
-#header p,
-#header h1,
-#header h2 {
-	padding:.4em 15px 0 15px;
-	margin:0;
-}
+
 #header ul {
 	clear:left;
 	float:left;
@@ -170,6 +161,8 @@ footer{
 	text-align: center;
 	font-size: 8px;
 	font-family: Courier, monospace;
+	clear: both;
+	padding-top: 20px;
 }
 #footer {
 	clear:both;

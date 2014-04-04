@@ -13,48 +13,199 @@
 	<link rel="shortcut icon" href="./lightbox/img/demopage/favicon.ico">
 	<link rel="stylesheet" href="./lightbox/css/screen.css" media="screen"/>
 	<link rel="stylesheet" href="./lightbox/css/lightbox.css" media="screen"/>
+        <link rel="stylesheet" href="./teacher.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="rolemodellibrary.css" media="screen" />
 	<script>
 		window.onload=function() {location.href='#top';};
 	</script>
+        <script>
+		$(document).ready(function(){
+		  $("button.dayplan").click(function(){
+		    $("div.daytext").toggle("slow");
+                    
+		  });
+		});
+                $(document).ready(function(){
+		  $("button.htmltutorial").click(function(){
+		    window.open("http://mcwic.github.io/htmltutorial");
+                    
+		  });
+		});
+                $(document).ready(function(){
+		  $("button.librarybutton").click(function(){
+		    $("div.rolemodelstuff").toggle("slow");
+                    
+		  });
+		});
+                 $(document).ready(function(){
+		  $("button.htmlbutton").click(function(){
+		    $("div.htmlstuff").toggle("slow");
+                    
+		  });
+		});
+        </script>
+        <style>
+          div.daytext, div.rolemodelstuff, div.htmlstuff{display:none;}
+	</style>
 </head>
-<body>
-	<a id="top"/>
-<div class="wrapper">
+    
+    <body>
+    
+        <a id="top"/>
+        <header>
+	    <img id="header" src="header_teacher_depressed.png"/>
 
-	<section id="intro" class="section intro-section">
-		<header>
-			<h1 class="logo">Teacher Resources</h1>
-		</header>
-		
-	</section>
-
-
-	<section id="examples" class="section examples-section">
-		
-		
-		<header>
-			<h2 class="section-header">Assessments</h2>
-		</header>
-
-		<h3>Role Model Library</h3>
-		<div class="image-row">
-			<figure>
-                        <a class="example-image-link" title="Role Model Library Assessment" href="./role_model_library_assessment.jpg" data-lightbox="mentor-profile" ><img class="example-image" src="role_model_library_assessment.jpg" alt="Role Model Library Assessment" width="300" height="300"/></a>
-                        <figcaption><a href="role_model_library_assessment.pdf" target="_blank">Download PDF of Role Model Library Assessment</a></figcaption>
-                        </figure>
-                        
-		</div>
-                <h3> HTML Library </h3>
-                Have students enter their HTML and CSS code into the World Wide Web Consortium (W3C) validator [the industry tool for evaluating websites] in order to confirm that their code is written correctly.
-                Answer keys for each of the goal project websites are below. Remember that students can use many different 
-                             
-	    
-	</section>
+	</header>
+	<div class="buttons">
+		<a id="contents-link" href="./contents.html"></a>
+		<a id="meet-link" href="./blandrolemodellibrary.html"></a>
+		<a id="html-link" href="./htmlBuildingBlocks.html"></a>
+		<a id="tumblr-link" href="#"></a>
+		<a id="teacher-link" href="#"></a>
+		<a id="about-link" href="./about.html"></a>
+	</div>
 
 
 
 
-</div>
-
-</body>
+        <div class="colmask rightmenu">
+	    <div class="colleft">
+                <div class="col1">
+                    <div class="content">
+                        <div class="innercontent">
+                            <button class="dayplan"><img src="day-by-day_button.png" alt="12 week day-by-day after-school program plan" width="100%" height="100%"/></button>
+                            <div class="daytext">
+                                <p> things</p>
+                            </div>
+                            <br>
+                            <button class="htmltutorial"><img src="htmltutorialteacherresourcesbutton.png" alt="HTML Tutorial for Teachers and Parents" width="100%" height="100%"/></button>
+                            <br>
+                            <button class="librarybutton"><img src="rolemodellibraryteacherresourcesbutton.png" alt="Role Model Library Projects & Assessments" width="100%" height="100%"/></button>
+                            <div class="rolemodelstuff">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <figure>
+                                                <a class="example-image-link" title="Role Model Library Assessment" href="./role_model_library_assessment.jpg" data-lightbox="mentor-profile" ><img class="example-image" src="role_model_library_assessment.jpg" alt="Role Model Library Assessment" width="300" height="300"/></a>
+                                                <figcaption><a href="role_model_library_assessment.pdf" target="_blank">Download PDF of Role Model Library Assessment</a></figcaption>
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <br>
+                            <button class="htmlbutton"><img src="learntobuildwebsiteteacherresourcesbutton.png" alt="Learn to Build A Website Solutions, Assessments & Extensions" width="100%" height="100%"/></button>
+                            <div class="htmlstuff">
+                                <table>
+                                    <th>Assessment</th>
+                                    <th>Goal Project Solutions</th>
+                                    <th>Extensions</th>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                One way of assessing students' progress is to have your students enter their HTML and CSS code into the <a href="http://validator.w3.org/#validate_by_input">World Wide Web Consortium (W3C) validator</a>. This is the industry tool for evaluating HTML code. Use this tool to confirm that students have written bug free code.
+                                                Note that just because student's code passes the validator, doesn't mean that their code will generate the website they were trying to create.
+                                                Answer keys for each of the goal project websites are below.
+                                                Remember that, just like solving a math problem in different ways to reach the same correct answer, students can write different code to achieve the same visual result.
+                                                Student's code need not perfectly match the answers shown below.
+                                            </p>  
+                                        </td>
+                                        <td>
+                                            <figure>
+                                                <a class="example-image-link" title="Goal Project 1 solution" href="./goalProject1Solution.png" data-lightbox="mentor-profile" ><img class="example-image" src="goalProject1Solution.png" alt="Goal Project 1 Solution" width="300" height="300"/></a>
+                                                <figcaption><a href="GoalProject1_Solution.pdf" target="_blank">Download PDF Goal Project 1 solution & explanation.</a><br><a href="Project0SolutionAudio.m4a">Listen to an audio explanation of the solution.</a></figcaption>
+                                            </figure>
+                                        </td>
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                         <td>
+                                            <figure>
+                                                <a class="example-image-link" title="Goal Project 1 solution" href="./goalProject1Solution.png" data-lightbox="mentor-profile" ><img class="example-image" src="goalProject1Solution.png" alt="Goal Project 1 Solution" width="300" height="300"/></a>
+                                                <figcaption><a href="GoalProject1_Solution.pdf" target="_blank">Download PDF Goal Project 1 solution & explanation.</a><br><a href="Project0SolutionAudio.m4a">Listen to an audio explanation of the solution.</a></figcaption>
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="blackInvisible">
+                    <table>
+                                    <th>Assessment</th>
+                                    <th>Goal Project Solutions</th>
+                                    <th>Extensions</th>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                One way of assessing students' progress is to have your students enter their HTML and CSS code into the <a href="http://validator.w3.org/#validate_by_input">World Wide Web Consortium (W3C) validator</a>. This is the industry tool for evaluating HTML code. Use this tool to confirm that students have written bug free code.
+                                                Note that just because student's code passes the validator, doesn't mean that their code will generate the website they were trying to create.
+                                                Answer keys for each of the goal project websites are below.
+                                                Remember that, just like solving a math problem in different ways to reach the same correct answer, students can write different code to achieve the same visual result.
+                                                Student's code need not perfectly match the answers shown below.
+                                            </p>  
+                                        </td>
+                                        <td>
+                                            <figure>
+                                                <a class="example-image-link" title="Goal Project 1 solution" href="./goalProject1Solution.png" data-lightbox="mentor-profile" ><img class="example-image" src="goalProject1Solution.png" alt="Goal Project 1 Solution" width="300" height="300"/></a>
+                                                <figcaption><a href="GoalProject1_Solution.pdf" target="_blank">Download PDF Goal Project 1 solution & explanation.</a><br><a href="Project0SolutionAudio.m4a">Listen to an audio explanation of the solution.</a></figcaption>
+                                            </figure>
+                                        </td>
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                         <td>
+                                            <figure>
+                                                <a class="example-image-link" title="Goal Project 1 solution" href="./goalProject1Solution.png" data-lightbox="mentor-profile" ><img class="example-image" src="goalProject1Solution.png" alt="Goal Project 1 Solution" width="300" height="300"/></a>
+                                                <figcaption><a href="GoalProject1_Solution.pdf" target="_blank">Download PDF Goal Project 1 solution & explanation.</a><br><a href="Project0SolutionAudio.m4a">Listen to an audio explanation of the solution.</a></figcaption>
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                </table>
+                    </div>
+                </div>
+                <!--<div class="col2">-->
+                    <div class="col2">
+                            
+				<div id="right">
+					<img src="additionalresources.png" width=90% height=90%/>
+                                        <br><br>
+                                        <ul id="black">
+                                            <li>Use <a href="scratch.mit.edu">Scratch</a> to create games and learn the basics of object oriented programming.</li>
+                                            <li><a href="http://www.alice.org/index.php">Alice</a> can help you tell stories, create games, and learn object oriented programming.</li>
+                                            <li>Create mobile applications while learning programming basics with <a href="https://www.touchdevelop.com">TouchDevelop</a></li>
+                                            <li>Check out these after-school club <a href="http://www.csfirst.net/clubplans">curriculum plans</a> from Google's CS First project (in progress).</li>
+                                            <li>Use <a href="http://csunplugged.org">CS Unplugged.</a> to find cool activities that don't require a computer.</li>
+                                            <li>Want to learn more about how to mentor your students, encourage gender diversity, and nominate your female students for awards?
+                                            Check out the <a href="https://www.ncwit.org">National Center for Women in Computing</a>.</li>
+                                        </ul>
+				</div>
+								
+			</div>
+                    <!-- Column 2 start
+                    <div id="right">
+                    &nbsp;<img src="columnheading_buildingblocks.png" width=90% height=90%/>
+                    <br><br>
+                    <h5> Click the blocks on the left to see what code you can use to change the text color, size, add images, and more. </h5>
+                    <br>
+                    <h5> <a href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic" >Click</a> to write your code.</h5>
+                    <br>
+                    <a class="example-image-link" href="./goalProject0.png" data-lightbox="mentor-profile" ><img class="example-image" src="./goalProject0.png" alt="Goal project 1" width="200" height="200"/></a>
+                    <a class="example-image-link" href="./goalProject.png" data-lightbox="mentor-profile" ><img class="example-image" src="./goalProject.png" alt="Goal project 1" width="200" height="200"/></a>
+                    <a class="example-image-link" href="./goalProject1B.png" data-lightbox="mentor-profile" ><img class="example-image" src="./goalProject1B.png" alt="Goal project 1" width="200" height="200"/></a>
+                    <a class="example-image-link" href="./goalProject1C.png" data-lightbox="mentor-profile" ><img class="example-image" src="./goalProject1C.png" alt="Goal project 1" width="200" height="200"/></a>
+                    </div>	-->	
+		<!--</div>-->
+            </div>
+        </div>
+       <footer>Website design by <a href="https://www.cs.umd.edu/people/eredmil1"> Elissa Redmiles</a>. 2014.
+   All rights reserved. Made possible by generous support from our sponsors: the <a href="http://www.sigcse.org"><span id="white">Association of Computing Machinery Special Interest Group on Computer Science Education</span></a> and the <a href="http://mcwic.cs.umd.edu">
+   <span id="white">Maryland Center for Women in Computing</span></a> <br><br><p style="font-size:5px">Code Citations: <a href="http://lokeshdhakar.com/projects/lightbox2/"><span id="white"> Lightbox2.js</span></a>,
+   <a href="http://videobox-lb.sourceforge.net" ><span id="white">Videobox</span></a>
+   & <a href="http://matthewjamestaylor.com/blog"><span id="white">Matthew James Taylor</span></a></p></footer>
+  
+  
+    </body>
 </html>
