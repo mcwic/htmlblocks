@@ -1,50 +1,50 @@
+<!DOCTYPE html>
+
 <html>
 <head>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-</script>
-
-<script>
-$(document).ready(function(){
-  $("button.basics").click(function(){
-    $("div.basicsSection").toggle("slow");
-  });
-});
-</script>
-<style>
-div.basicsSection{
-display: none;
-}
-</style>
+    <link rel="stylesheet" type="text/css" href="contents.css" media="screen" />
+    <title>University of Maryland Computer Science Curriculum In A Box</title>
+    <!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+  <meta name="keywords" content="HTML,CSS,Computer Science, Teacher Resources, Assessment Resources, Computer Science Mentor, What is computer science, learning, Maryland Center for Women in Computing, University of Maryland, Association for Computing Machinery, ACM, Special Interest Group on Computer Science Education, SIGCSE">
+    <meta name="author" content="Elissa Redmiles"> 
 </head>
+
 <body>
-<h1>Welcome to the HTML Building Blocks Library</h1>
-<button onclick="window.location='contents.html'"> NEW WEBSITE (in progress) </button> 
-<button onclick="window.location='rolemodellibrary.html'"> Go to the Role Model Library </button> 
-<br>
-<br>
-<button onclick="window.location='blandrolemodellibrary.html'"> Go to the Bland Version of the Role Model Library </button>
-<br>
-<br>
-<button class="basics">the basics </button>
-<div class="basicssection"> 
-<h2> What is a webpage? </h2>
-</p>
-Webpages are made out of code. The code that creates the google.com page looks something like this: http://www.zpravy.net/misc/google-redesign/homepage-source.htm. 
-<p>
-<h2> What is code? </h2>
-<p>
-Code is a set of instructions written in a particular programming language. Just like the instructions for baking a cake might be written in English or Spanish, different programming languages can be used to write instructions that produce the same result. 
-</p>
-<h2> What is HTML? </h2>
-<p>
-The universal programming language for the web is HTML (HyperText Markup Language). In order to format the results of the instructions we write using HTML (in order to make the instructions in our cookbook look prettier) we use CSS (cascading style sheets). We type our code into files that end in .html (just like a word document ends in .doc).
-The words of HTML are tags...
-</p>
-</div>
-<br>
-<br>
-<br>
-<button onclick="window.location='htmlBuildingBlocks.html'"> Enter the Library </button>
+    <div id="container">
+        <header>
+            <img id="header" src="header_contents_depressed.png"/>
+        </header>
+        
+        <div class="buttons">
+            <a id="contents-link" href="#"></a>
+            <a id="meet-link" href="./computerscientistlibrary.html"></a>
+            <a id="html-link" href="./htmlBuildingBlocks.html"></a>
+            <a id="tumblr-link" href="#"></a>
+            <a id="teacher-link" href="./teacher_resources.html"></a>
+            <a id="about-link" href="./about.html"></a>
+        </div>
+     
+        <div id="body">
+            <img src="hometesttext.png" width="95%" height="95%"/>
+            <br/>
+            <div id="rightAlign">
+                <img src="./textforwebpagechalkduster.png" height="100%" width="100%"/>
+            </div>
+        </div>
+    
+        <footer>
+            <footer>Website design by <a href="https://www.cs.umd.edu/people/eredmil1"> Elissa Redmiles</a>. 2014.
+   All rights reserved. Made possible by generous support from our sponsors: the <a href="http://www.sigcse.org"><span id="white">Association of Computing Machinery Special Interest Group on Computer Science Education</span></a> and the <a href="http://mcwic.cs.umd.edu">
+   <span id="white">Maryland Center for Women in Computing</span></a> <br><p style="font-size:5px">Code Citations: <a href="http://lokeshdhakar.com/projects/lightbox2/"><span id="white"> Lightbox2.js</span></a>,
+   <a href="http://videobox-lb.sourceforge.net" ><span id="white">Videobox</span></a>
+   & <a href="http://matthewjamestaylor.com/blog"><span id="white">Matthew James Taylor</span></a></p></footer>
+  
+        </footer>
+  
+    </div> 
 </body>
 </html>
-
