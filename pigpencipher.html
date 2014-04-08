@@ -3,16 +3,55 @@
 <html>
 <head>
     <title>Pigpen Cipher</title>
+    <meta name="keywords" content="HTML,CSS,Computer Science, Teacher Resources, Assessment Resources, Computer Science Mentor, What is computer science, learning, Maryland Center for Women in Computing, University of Maryland, Association for Computing Machinery, ACM, Special Interest Group on Computer Science Education, SIGCSE">
+    <meta name="author" content="Elissa Redmiles"> 
     <style>
         blockquote{
+            font-style: italic;
+        }
+        html,
+        body {
+           margin:0;
+           padding:0;
+           height:100%;
+        }
+        #container {
+           min-height:100%;
+           position:relative;
+        }
+        #header {
+          
+           padding:10px;
+        }
+        #body {
+           padding:10px;
+           padding-bottom:30px;   /* Height of the footer */
+        }
+        #footer {
+           position:relative;
+           bottom:0;
+           width:100%;
+           height:30px;   /* Height of the footer */
+           background:#990000;
+           color: white;
+           text-align: center;
+        }
+        a{
+            color: white;
+        }
+        a:visited{
+            color: white;
             font-style: italic;
         }
     </style>
 </head>
 
 <body>
+    <div id="contents">
+    <div id="header">
 <h1> The Pigpen / Freemason's Cipher </h1>
-
+</div>
+    <div id="body">
 <h2> Explanation & History </h2>
 <p>A little history on the Pigpen cipher from <a href="http://en.wikipedia.org/wiki/Pigpen_cipher">Wikipedia</a>:<blockquote cite=http://en.wikipedia.org/wiki/Pigpen_cipher">
 The exact origin of the cipher is uncertain, but records of this system have been found which go back to at least the 18th century. Variations of this cipher were used by both the Rosicrucian brotherhood and the Freemasons, though the latter used it so often that the system is frequently called the Freemason's cipher.</blockquote> </p>
@@ -27,5 +66,8 @@ The exact origin of the cipher is uncertain, but records of this system have bee
 <img src="pigpenhelloexample.png" height="50%" width="50%"/>
 <br><br><br>
 <img src="pigpengoodbye.png" height="50%" width="50%"/>
+</div>
+<div id="footer"><a href="https://www.cs.umd.edu/people/eredmil1">Elissa Redmiles</a>. 2014. Part of the ACM SIGCSE and Maryland Center for Women in Computing <a href="">Curriculum In A Box</a>.</div>
+</div>
 </body>
 </html>
