@@ -5,11 +5,17 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<meta name="keywords" content="HTML,CSS,Computer Science, Teacher Resources, Assessment Resources, Computer Science Mentor, What is computer science, learning, Maryland Center for Women in Computing, University of Maryland, Association for Computing Machinery, ACM, Special Interest Group on Computer Science Education, SIGCSE">
     <meta name="author" content="Elissa Redmiles"> 
+	
 	<!-- JS for buttons, you can change the p to div if that works better for what you need to insert. -->
-	<script>
+	<!--<script>
 		$(document).ready(function(){
 		  $("button.htmlbutton").click(function(){
 		    $("p.htmltext").toggle("slow");
+		  });
+		});
+		$(document).ready(function(){
+		  $("button.headbutton").click(function(){
+		    $("p.headtext").toggle("slow");
 		  });
 		});
 		$(document).ready(function(){
@@ -53,22 +59,31 @@
 		  });
 		});
 		
-	</script>
+	</script>-->
 	<!-- CSS for buttons -->
 	<style>
-		p.htmltext,div.headingtext, p.bodytext, p.paragraphtext, p.CSStext, p.backgroundCSStext, p.linktext, p.CSSColortext, p.imgtext{
+		p.htmltext,p.headtext,div.headingtext, p.bodytext, p.paragraphtext, p.CSStext, p.backgroundCSStext, p.linktext, p.CSSColortext, p.imgtext{
 			text-align: left;
 			display:none;}
+		p.center{
+			text-align: center;
+		}
+		p.bigger{
+			font-size: 20px;
+		}
 	</style>
 	<!-- imports for lightbox functionality in right column -->
 	<script src="./lightbox/js/jquery-1.10.2.min.js"></script>
 	<script src="./lightbox/js/lightbox-2.6.min.js"></script>
 	<script src="./lightbox/js/modernizr.custom.js"></script>
+	<script type="text/javascript" src="./video/js/mootools.js"></script>
+	<script type="text/javascript" src="./video/js/swfobject.js"></script>
 
+	<script type="text/javascript" src="./video/js/videobox.js"></script>
 	<link rel="shortcut icon" href="./lightbox/img/demopage/favicon.ico">
 	<link rel="stylesheet" href="./lightbox/css/screen.css" media="screen"/>
 	<link rel="stylesheet" href="./lightbox/css/lightbox.css" media="screen"/>
-
+	<link rel="stylesheet" href="./video/css/videobox.css" type="text/css" media="screen" />
 	<title>HTML Building Blocks</title>
 	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
 
@@ -94,12 +109,21 @@
 		<div class="colleft">
 			<div class="col1">
 				<!-- Column 1 start -->
+				
 				<div id="container3">
 					<div id="container2">
 						<div id="container1">
 							<div id="col1">
+								<img src="./htmlButton.png" width="150px" height="150px" alt="Getting Started button"/>
+								<a class="example-image-link" href="https://www.youtube.com/watch?v=JL-j9Kzqc7w" rel="vidbox" title="HTML Getting Started">
+									<button type="button"> Video</button></a>
+								<a class="example-image-link" href="./html.png" data-lightbox="html-images" ><button type="button">Text</button></a>
+								<!--
+								<a class="example-image-link" href="./html.png" data-lightbox="html-images" ><img class="example-image" src="htmlButton.png" alt="Getting Started" width="150px" height="150px"/></a>
+								
 								<button class="htmlbutton"><img src="htmlbutton.jpg" width="150px" height="150px"/></button>
-								<p class="htmltext"> All HTML Code must live between html tags, these tags look like this:
+								<p class="htmltext">
+									<!--All HTML Code must live between html tags, these tags look like this:
 								<img src="htmltag.png" width="100%" height="100%"/> All the code that you write goes either between the head tags (where you write code for stuff you DONT see on the page)
 								or between the body tags (where you write code for the stuff you DO see -- check out the body block for more info).
 								<br> Click the picture below for an example.
@@ -109,48 +133,93 @@
 								<button class="paragraphbutton"><img src="paragraphButton.png" width="150px" height="150px"/></button>
 								<p class="paragraphtext">Want to write some text? Write it inside a paragraph tag! The paragraph tag looks like this: <img src="paragraphtag.png" width="100%" height="100%" />
 								<br>Try the code below and see if you get the same result.
-								<a class="example-image-link" href="./seansparagraphhtml.png" data-lightbox="html-images" ><img class="example-image" src="./seansparagraphhtml.png" alt="Goal project 1" width="100%" height="100%"/></a>
+								Learn how to write your first website using the HTML Tags:
+								<a class="example-image-link" href="./html.png" data-lightbox="html-images" ><img class="example-image" src="./seansparagraphhtml.png" alt="Goal project 1" width="100%" height="100%"/></a>
+								Learn about the language of HTML in this 40 second video.
+								<iframe src="https://docs.google.com/file/d/0B0_BJQ2WWUAOeUlWc2tqSDNaZm8/preview" width="100%" height="100%"></iframe>
+								Learn where to put your code in this 30 second video.
+								<iframe src="https://docs.google.com/file/d/0B0_BJQ2WWUAOejMtWGhFWTlobGc/preview" width="100%" height="100%"></iframe>
 								</p>
-								<br>
+								<br>-->
+								<img src="./headButton.png" width="150px" height="150px" alt="Getting Started button"/>
+								<a class="example-image-link" href="https://www.youtube.com/watch?v=8qJL_NWiLcg" rel="vidbox" title="HTML head tag">
+									<button type="button"> Video</button></a>
+								
+					
+								<img src="./paragraphButton.png" width="150px" height="150px" alt="image button"/>
+								<a class="example-image-link" href="https://www.youtube.com/watch?v=qiQbJFIcDtI" rel="vidbox" title="HTML body, heading and paragraph tags"><button type="button"> Video</button></a>
+								<a class="example-image-link" href="./p.png" data-lightbox="html-images" ><button type="button">Text</button></a>
+								<img src="./fontCSS.png" width="150px" height="150px" alt="Link CSS button"/>
+								<a class="example-image-link" href="" rel="vidbox" title="CSS Font Video">
+									<button type="button"> Video</button></a>
+								<a class="example-image-link" href="" data-lightbox="html-images" ><button type="button">Text</button></a>
+								
 								<!---<button class="CSSColorbutton"><img src="colorCSSButton.png" width="150px" height="150px"/></button>
 								<p class="CSSColortext">Elissa's information goes here. </p>--->
 							</div>
 							<div id="col2">
-							<button class="bodybutton"><img src="bodybutton.jpg" width="150px" height="150px"/></button>
-								<p class="bodytext"> You use body tags to hold all the stuff that you will see when you load a webpage. There are lots of different tags that you can put inside a body tag.
+								<img src="./bodybutton.jpg" width="150px" height="150px" alt="body button"/>
+								<a class="example-image-link" href="https://www.youtube.com/watch?v=qiQbJFIcDtI" rel="vidbox" title="HTML body, heading and paragraph tags"><button type="button"> Video</button></a>
+								
+								
+							<!--<button class="bodybutton"><img src="bodybutton.jpg" width="150px" height="150px"/></button>
+								<p class="bodytext"> <!--You use body tags to hold all the stuff that you will see when you load a webpage. There are lots of different tags that you can put inside a body tag.
 								This is a body tag:
 								<img src="bodytag.png" width="100%" height="100%">
 								Click the picture below for an example.
-								<a class="example-image-link" href="./seanshtml.png" data-lightbox="html-images" ><img class="example-image" src="./seanshtml.png" alt="Goal project 1" width="100%" height="100%"/></a>
-								</p>
-								<br>
-								<button class="linkbutton"><img src="linkButton.png" width="150px" height="150px"/></button>
-								<p class="linktext"> Want to link to a different website on your website? Use a "hyperlink" tag: <img src="linktag.png" width="100%" height="100%"/>
+								Learn about what to put in the body of your HTML page: 
+								<iframe width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>
+								</p>-->
+								<img src="./linkButton.png" width="150px" height="150px" alt="Link button"/>
+								<a class="example-image-link" href="" rel="vidbox" title="Link Video">
+									<button type="button"> Video</button></a>
+								<a class="example-image-link" href="./a.png" data-lightbox="html-images" ><button type="button">Text</button></a>
+								
+								<!--Want to link to a different website on your website? Use a "hyperlink" tag: <img src="linktag.png" width="100%" height="100%"/>
 								the href part stands for <b>h</b>yperlink <b>ref</b>erence.
 								<br>You have to fill in a few blanks to make this tag work. Put what you want people to click on to follow your link where the ... is (try putting either a word or an image here, do both work?). Put the URL (the website address) that you want your user to be sent to when they click where the XXX is.
 								Like this:
 								<img src="filledlinktag.png" width="100%" height="100%"/>								
 								Here's an example of making links, see if you can make your own! Try putting a link on an image instead of a word!
-								<a class="example-image-link" href="./seanslinkhtml.png" data-lightbox="html-images" ><img class="example-image" src="./seanslinkhtml.png" alt="Goal project 1" width="100%" height="100%"/></a>
+								
+								Learn how to put a link on your website:
+								<a class="example-image-link" href="./a.png" data-lightbox="html-images" ><img class="example-image" src="./a.png" alt="About links" width="100%" height="100%"/></a>
 								
 								</p>
-								<br>
-								<!---<button class="backgroundCSSbutton"><img src="backgroundCSSButton.png" width="150px" height="150px"/></button>
-								<p class="backgroundCSStext"> Elissa's information goes here.
-								</p>--->
+								<br>-->
+								<img src="./backgroundCSSButton.png" width="150px" height="150px" alt="CSS Background button"/>
+								<a class="example-image-link" href="" rel="vidbox" title="Link Video">
+									<button type="button"> Video</button></a>
+								<a class="example-image-link" href="" data-lightbox="html-images" ><button type="button">Text</button></a>
+								<img src="./colorCSSButton.png" width="150px" height="150px" alt="CSS button"/>
+								<a class="example-image-link" href="" rel="vidbox" title="CSS Color Video">
+									<button type="button"> Video</button></a>
+								<a class="example-image-link" href="" data-lightbox="html-images" ><button type="button">Text</button></a>
+								
+
 							</div>
 							<div id="col3">
+								
+								<img src="./headingButton.png" width="150px" height="150px" alt="image button"/>
+								<a class="example-image-link" href="https://www.youtube.com/watch?v=qiQbJFIcDtI" rel="vidbox" title="HTML body, heading and paragraph tags"><button type="button"> Video</button></a>
+								<a class="example-image-link" href="./headings.png" data-lightbox="html-images" ><button type="button">Text</button></a>
+								
+								<!--
 								<button class="headingbutton"><img src="headingButton.png" width="150px" height="150px"/></button>
 								<div class="headingtext">
-								<p>Want to draw attention to some text? Use a heading! Headings are numbered from largest to smallest. It's good to have headings at the beginning of a page or paragraph. You can use headings to organize main ideas.
+								<!--<p>Want to draw attention to some text? Use a heading! Headings are numbered from largest to smallest. It's good to have headings at the beginning of a page or paragraph. You can use headings to organize main ideas.
 								Here's how to create each of the six headings, and what they look like: 
+								 Learn how to draw attention to your text: 
 								
-								<a class="example-image-link" href="./seansheadinghtml.png" data-lightbox="html-images" ><img class="example-image" src="./seansheadinghtml.png" alt="Goal project 1" width="100%" height="100%"/></a>
+								</p>-->
+								<!-- this one is a div rather than a paragraph 
+								</div>-->
+								<img src="./imgButton.png" width="150px" height="150px" alt="image button"/>
+								<a class="example-image-link" href="https://www.youtube.com/watch?v=21aqCWUu7i4" rel="vidbox" title="HTML img tag">
+									<button type="button"> Video</button></a>
+								<a class="example-image-link" href="./img.png" data-lightbox="html-images" ><button type="button">Text</button></a>
 								
-								</p>
-								<!-- this one is a div rather than a paragraph -->
-								</div>
-								<br>
+								<!--
 								<button class="imgbutton"><img src="imgButton.png" width="150px" height="150px"/></button>
 								<p class="imgtext">If you want to place an image in your text, you need to use an image tag. The image tag looks like this:
 								<img src="imgtag.png" height="100%" width="100%">
@@ -160,13 +229,26 @@
 								<br>Can you can stretch them out vertically and horizontally?
 								<a class="example-image-link" href="./seansimghtmlsmall.png" data-lightbox="html-images" ><img class="example-image" src="./seansimghtmlsmall.png" alt="Goal project 1" width="100%" height="100%"/></a>
 								</p>
-								<br>
+								<br>-->
 								<!---<button class="CSSbutton"><img src="cssButton.png" width="150px" height="150px"/></button>
 								<p class="CSStext"> Elissa's information goes here. </p>--->
+								<img src="./cssButton.png" width="150px" height="150px" alt="CSS button"/>
+								<a class="example-image-link" href="" rel="vidbox" title="Link Video">
+									<button type="button"> Video</button></a>
+								<a class="example-image-link" href="" data-lightbox="html-images" ><button type="button">Text</button></a>
+								<img src="./aCSS.png" width="150px" height="150px" alt="Link CSS button"/>
+								<a class="example-image-link" href="" rel="vidbox" title="CSS Link Video">
+									<button type="button"> Video</button></a>
+								<a class="example-image-link" href="" data-lightbox="html-images" ><button type="button">Text</button></a>
+								
 							</div>
 	
 						</div>
 					</div>
+						<br><br>
+						<p class="bigger"> <a href="http://www.youtube.com/embed/videoseries?list=PLPpkJJSKXEJ11Mq8xjty3AZKldH9V48mt">View all videos</a> </p>
+						<p> <a href="http://mcwic.github.io/htmltutorial/">Screen Reader Accessible Version of Text Content.</a> </p>
+						
 				</div>
 				<!-- Column 1 end -->
 			</div>
