@@ -1,0 +1,6 @@
+We use the internet everyday, but have you ever wondered how to make a webpage? When you type www.google.com into your web browser, do you know what happens? What is going on when the page is loading? How is the web page arranged the way it is? How do the colors and buttons appear on the screen? 
+
+Webpages are written in a language called HTML. Like english, this language has words that mean different things. In HTML the words are called tags. Your web browser reads these tags and displays what you see as the webpage. 
+
+All html code consists of opening and closing tags. Opening tags are like the front cover of a book and closing tags are like the back cover. All content goes in between the opening and closing tags like the pages of a book.
+These are some of the HTML tags that you will learn to use:
